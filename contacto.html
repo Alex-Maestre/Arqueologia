@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="ES">
+    
+    <head>
+        <title> Formulario </title>
+        
+        <meta charset="UTF-8">
+        
+        <base target="_self">
+    
+        <meta name="author" content="Alejandro Maestre y Javier Varela">
+    
+        <meta name="date" content="12/01/2023">
+    
+        <meta name="description" content="Yacimientos arqueologicos de Palma de Mallorca">
+    
+        <meta name="keywords" content="Yacimientos,arqueologia,islas baleares, palma de mallorca, talaiots">
+    
+        <link rel="stylesheet" type="text/css" href="externo_yacimientos.css">
+    
+        <link rel="shortcut icon" type="image/x-icon" href="islas.ico"> 
+    </head>
+    
+    <body>
+        
+        <header class="header">
+        <div class="logo-nav">
+            <a href="https://es.wikipedia.org/wiki/Palma_de_Mallorca" class="logo">YACIMIENTOS ARQUEOLOGICOS DE PALMA DE MALLORCA</a>
+            <nav class="nav">
+        <ul>
+		<li><a href="http://localhost:8383/Jaciments%20Arqueologics/JacimentsArqueologics.html">Inicio</a></li>
+		<li><a href="http://localhost:8383/Jaciments%20Arqueologics/contacto.html">Contáctenos</a></li>
+		<li><a href="http://localhost:8383/Jaciments%20Arqueologics/informacion.html">Acerca de</a></li>
+	 </ul>
+            </nav>
+        </div>    
+    </header> 
+        
+        <aside>
+        <img class="contacto" src="contactenos-1.png" alt="Fotografia Contacto" >
+    </aside>
+        
+        <section>  
+        <div class="texto">
+        <h1>Contáctenos</h1>
+        <article>
+        <h2>Página de contacto</h2>
+        <p>En esta página hemos creado un formulario de contacto, para que puedes enviarnos tu duda, sugerencia o decirnos aquello que necesites. 
+        <h3>Estaremos encantados de recibir su consulta</h3>
+        </article> 
+        </div>
+    </section>
+        
+        <form method="get" action="http://localhost:8383/Jaciments%20Arqueologics/JacimentsArqueologics.html">
+            
+            <fieldset> 
+            
+            <legend> Formulario de contacto </legend> 
+            
+            Nombre:
+            <br>
+            <input type="text" maxlength="100" id="name" name="Nombre"> 
+            <br>
+            <br>
+            
+            Sexo:
+            <br>
+           <select name="sexo">
+                <option value="Hombre">Hombre</option> 
+                <option value="Mujer">Mujer</option> 
+            </select>
+            <br>
+            <br>
+            
+            Edad:
+            <br>
+            <input type="radio" name="opción">+18 años (mayor de edad)
+            <br>
+            <input type="radio" name="opción" disabled="">-18 años (menor de edad)
+            <br> 
+            <br>
+            
+            E-Mail (en caso de ser menor de edad, introduzca el correo de su titular):
+            <br>
+            <input type="text" maxlength="150" id="E-Mail" name="E-Mail"> 
+            <br>
+            <br>
+            
+            ¿Cómo podemos ayudarte?:
+            <br>
+            <br>
+            <textarea maxlength="150" name="¿Cómo podemos ayudarte?"></textarea>
+            <br>
+            <br>
+            
+            <input class="enviar" type="submit" value="Enviar consulta"> 
+            <input type="reset" value="Restablecer"> 
+            
+            </fieldset> 
+            
+        </form>
+        
+        <footer class="footer">
+        <div class="texto-footer">
+        <h3>Donde estamos</h3>
+	<strong>Palma</strong> 07010
+        <br>Camí dels Reis S/N
+        <hr>
+        <strong>Ciutadella de Menorca</strong> 07760
+        <br>Carrer de Sant Antoni Mª. Claret, S/N
+        <hr>
+        <strong>Eivissa</strong> 07800
+        <br>Passeig Joan Carles I, 1
+        <br>
+        <br>
+        <br>
+        <h4>Created by Alex Maestre & Javier Varela</h4>
+        </div>
+    </footer>
+        
+        </body>
+    
+</html>

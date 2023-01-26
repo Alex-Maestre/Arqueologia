@@ -1,0 +1,160 @@
+body{
+    font-family: Times, arial, georgia;
+    color: white;
+    font-size: 20px;
+    background-image: url(formulario-fondo.jpg);
+}
+
+.header{
+    background-color: #333; 
+    color: white;
+    padding: 25px 0;
+    position: sticky;
+    top: 0;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.nav ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   margin-right: 28px;
+}
+
+.nav ul li{
+   display: inline-block;
+}
+
+.nav ul li a{
+   display: block;
+   padding: 8px 16px;
+}
+
+li a:hover {
+   background-color: #111;
+}
+
+.logo{
+   letter-spacing: 5px;
+   font-size: 20px;
+}
+
+.texto{
+   width: 80%;
+   margin: 0px auto;
+}
+
+.texto-footer{
+   width: 28%;
+   margin: 0px auto;
+   font-size: 14px;
+}
+
+p{
+   text-align: center;
+}   
+
+section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.footer{
+    background-color: #333;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.publicidad{
+    width: 100%;
+    display: block;
+} 
+
+form{
+    margin: 0 auto;
+    width: 400px;
+}
+
+fieldset{
+    color:white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#name{
+    font-size: 15px;
+    height:30px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+#E-Mail{
+    font-size: 15px;
+    height:30px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+textarea{
+    font-size: 15px;
+    height: 200px;
+    width: 400px;
+    box-sizing: border-box;
+} 
+
+h1{
+    font-size: 50px;
+    line-height: 5px;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.contacto{
+    height: 350px;
+    width: 100%;
+    display: block;
+} 
+
+article > h2 {
+    color: #E0E0E0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.imagen-redonda{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    width:300px;
+    height:300px;
+    border-radius: 170px;
+    border:8px solid grey;
+}
+
+.enviar{
+    font-size:20px;
+    font-family: Times, arial, georgia;
+    font-weight:bold;
+    color:white;
+    background:#333;
+    border:2px;
+    width:200px;
+    height:40px;
+}
