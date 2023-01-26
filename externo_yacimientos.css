@@ -167,19 +167,19 @@ table {
     margin-right: auto;
   }
     th, td {
-    padding: 8px;
+    padding: 11px;
     text-align: center;
   }
   .cab {
-    background-color: #91823a;
+    background-color: #E0E0E0;
     color: black;
     font-weight: bold;
   }
   tr {
-    background-color: #d9c88d;
+    background-color: #555;
   }
   tr:nth-child(even) {
-    background-color: #f0f3fa;
+    background-color: #333;
   }
   td:nth-child(1) {
     font-weight: bold;
@@ -188,5 +188,5 @@ table {
     width: 60px;
   }
   a {
-      color: #565e6b;
+      color: #E0E0E0;
   }
