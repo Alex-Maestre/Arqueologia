@@ -70,7 +70,7 @@ li a:hover {
 }
 
 p{
-   text-align: center;
+   text-align: left;
 }   
 
 section{
@@ -205,3 +205,20 @@ table {
   a {
       color: white;
   }
+  img {
+    display: block;
+    margin: auto;
+  }
+  iframe{
+    display: block;
+    margin: auto;
+  }
+  .imgvid {
+    display: flex; 
+    align-items: center;
+}
+iframe, video {
+    width: 40%; 
+    height: 380px; 
+    margin: 0 5%; 
+}
